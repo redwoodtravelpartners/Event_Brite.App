@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventbrite_App</title>
+    <link rel="stylesheet" href="./interface.css">
+    <link rel="stylesheet" href="./Compress-fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div id="AppContainer">
+
+        <div class="pages" id="Home">
+
+            <p class="pageTitle">Home</p>
+
+            <img id="HomeservicePic"
+                src="./images/pngtree-vector-icons-of-a-group-of-people-and-a-graph-symbol-png-image_15843977.png"
+                alt="service">
+
+            <button
+                style="max-width: fit-content; font-size: 16px; display: flex; align-items: center; padding: 8px 20px 8px 16px; border-radius: 20px; border: none; background-color: #d1410c; gap: 8px; color: hsl(0, 0%, 95%); margin: auto auto 0;">
+                <img src="./iCons/location.png" alt="." style="width: 1.6em; filter: invert(100%);">
+                <p>Location/online</p>
+                <i class="fa fa-angle-down" style="font-size: 12px;"></i>
+            </button>
+
+        </div>
+
+
+        <div class="pages" id="Search">
+            <p class="pageTitle">Search</p>
+        </div>
+
+        <div class="pages" id="Tickets">
+            <p class="pageTitle">Tickets</p>
+            <div class="subTickets">
+                <p id="Upcoming" class="TicketPages">Upcoming</p>
+                <p id="Past-tickets" class="TicketPages">Past tickets</p>
+            </div>
+
+            <div id="UpcomingPage" class="ticketsListDiv">
+                <!-- <p>no tikets yet</p> -->
+
+
+
+                <div class="cutout">
+
+                    <div class="insideTix-Top">
+                        <p id="Tixdate">Jul 6<br><a id="Tixtime">6pm</a></p>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <p>4</p>
+                            <img style="width: 20px;" src="./images/App_Download__MLP__US_QR-code-LIVE.svg" alt="TixQrCode">
+                        </div>
+                    </div>
+
+                    <p id="Tixname">Rooftop Tiki Party @ The Aster</p>
+                    <p id="TixLocation">The Aster . Los Angeles, CA</p>
+
+                    <div class="eventPlacePic-Container"></div>
+                    
+                    <div class="Friends">
+
+                        <div class="friendsPeople">
+                            <div class="peopleContainer">
+                                <img class="people" src="./images/friend1.jpg" alt="people">
+                            </div>
+
+                            <div class="peopleContainer" style="transform: translateX(-8px); z-index: -1;">
+                                <img class="people" src="./images/friend2.jpg" alt="people">
+                            </div>
+
+                            <div class="peopleContainer" style="transform: translateX(-16px); z-index: -2;">
+                                <img class="people" src="./images/friend3.jpg" alt="people">
+                            </div>
+                            
+                            <!-- <div class="peopleContainer" style="transform: translateX(-24px); z-index: -3;">
+                                <img class="people" src="./images/friend4.PNG" alt="people">
+                            </div>
+
+                            <div class="peopleContainer" style="transform: translateX(-32px); z-index: -4;">
+                                <img class="people" src="./images/friend5.PNG" alt="people">
+                            </div> -->
+                        </div>
+
+                        <p>3 friends going</p>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+
+            </div>
+
+            <div id="Past-ticketsPage" class="ticketsListDiv">
+                <p>Past tickets</p>
+            </div>
+        </div>
+
+        <div class="pages" id="Favorites">
+            <p class="pageTitle">Favorites</p>
+        </div>
+
+        <div class="pages" id="Account">
+            <p class="pageTitle">Account</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="DownNav">
+            <div class="down-Nav-icon-Container">
+                <img id="HomeNav" class="navIcons" src="./iCons/nav/1home.png" alt="Home">
+            </div>
+            <div class="down-Nav-icon-Container">
+                <img id="SearchNav" class="navIcons" src="./iCons/nav/2search.png" alt="search">
+            </div>
+            <div class="down-Nav-icon-Container">
+                <img id="TixNav" class="navIcons" src="./iCons/nav/3ticket.png" alt="Tikets">
+            </div>
+            <div class="down-Nav-icon-Container">
+                <img id="FaveNav" class="navIcons" src="./iCons/nav/4favorite.png" alt="Favorites">
+            </div>
+            <div class="down-Nav-icon-Container">
+                <img id="ProfileNav" class="navIcons" src="./iCons/nav/5user.png" alt="Profile">
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
